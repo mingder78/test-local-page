@@ -1,11 +1,12 @@
 {
-  "name": "MyComponent.jsx",
-  "version": "1.0.50",
+  "name": "test-local-page",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx playwright test",
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@playwright/test": "^1.57.0",
     "elysia": "latest"
   },
   "devDependencies": {
