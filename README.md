@@ -1,5 +1,22 @@
 # Elysia with Bun runtime
 
+```
+.
+├── README.md
+├── bun.lock
+├── package.json
+├── playwright-report
+│   └── index.html
+├── playwright.config.ts
+├── src
+│   └── index.ts
+├── test-results
+├── tests
+│   ├── example.spec.ts
+│   └── h1.spec.ts
+└── tsconfig.json
+```
+
 ## Getting Started
 To get started with this template, simply paste this command into your terminal:
 ```bash
