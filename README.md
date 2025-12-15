@@ -26,7 +26,12 @@ bun create elysia ./elysia-example
 ## Development
 To start the development server run:
 ```bash
-bun run dev
+bun dev
+```
+## Test
+To test code with playwright:
+```bash
+bun run test
 ```
 
 Open http://localhost:3000/ with your browser to see the result.
