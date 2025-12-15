@@ -1,13 +1,15 @@
 {
   "name": "test-local-page",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "test": "npx playwright test",
+    "start": "bun run src/index.ts",
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
     "@playwright/test": "^1.57.0",
-    "elysia": "^1.4.19"
+    "elysia": "^1.4.19",
+    "vercel": "^50.0.1"
   },
   "devDependencies": {
     "bun-types": "latest"
